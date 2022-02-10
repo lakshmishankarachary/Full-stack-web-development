@@ -10,4 +10,4 @@ console.log(typeof (price))
 console.log(typeof (rating))
 console.log(typeof (color))
 console.log(typeof (is_Discount))
-console.log(typeof (is_Stock))
+console.log(typeof (is_Stock)) ``
