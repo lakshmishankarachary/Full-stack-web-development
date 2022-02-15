@@ -1,4 +1,4 @@
-var i=42222;
+var i=2222;
 if(i>5){
     console.log("having 4 at unit place")
 }
