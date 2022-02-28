@@ -1000,7 +1000,8 @@ let employees = [{ "id": 1, "name": "Sylvia", "email": "sbeardwood0@mlb.com" },
 { "id": 1000, "name": "Lauri", "email": "lgrzelewskirr@eepurl.com" }]
 
 function display_Data() {
-    let rows = ""
+    let tag_Ref = document.getElementById("abc");
+    let rows = "";
     for (emp of employees) {
         rows = rows + ` <tr>
         <td>${emp.id}</td>
@@ -1008,6 +1009,6 @@ function display_Data() {
         <td>${emp.email.toUpperCase()}</td>
                          </tr>`
     }
-
-    document.getElementById("abc").innerHTML = rows
+    tag_Ref.innerHTML = rows;
+    console.log(tag_Ref)
 }
