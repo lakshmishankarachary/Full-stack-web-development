@@ -5,13 +5,8 @@
 <button>Four</button>;
 
 <script>
-    
-    function mouseoverFun() {
-        document.getElementById('one').style.background = "blue"
-
+    function mouseoverFun(){
+       documment.getElementById("one").style.background="blue"
     }
-    function mouseOutFun() {
-        document.getElementById("two").style.background = "yellow"
-    }
-    
 </script>
+
