@@ -1,12 +1,7 @@
-<button onmouseover="mouseoverFun()" id="one">One</button>;
+let a = 100;
 
-<button onmouseOut="mouseoutFun()" id="two">Two</button>;
-<button>Three</button>;
-<button>Four</button>;
+let b = 200;
 
-<script>
-    function mouseoverFun(){
-       documment.getElementById("one").style.background="blue"
-    }
-</script>
+console.log(a+b)
+
 
